@@ -90,10 +90,10 @@
   color: white;
 }
 
-.news-photo{
+.news-photo {
   max-width: 300px;
 }
-.news-photo img{
+.news-photo img {
   width: 100%;
 }
 
@@ -111,6 +111,6 @@
 }
 .loading-spiner {
   text-align: center;
-  padding: 50px;
+  padding: 10rem;
   display: none;
 }
