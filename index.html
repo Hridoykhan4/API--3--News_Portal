@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API</title>
     <link rel="stylesheet" href="./styles/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div id="category-bar-container" class="category-bar"></div>
@@ -26,6 +33,35 @@
         alt=""
       />
     </div>
+
+    <!-- Open the modal using ID.showModal() method -->
+
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <h3 class="text-lg font-bold">Hello!</h3>
+        <p class="py-4">Press ESC key or click the button below to close</p>
+        <div class="" id="show-details">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+          itaque qui, necessitatibus cumque iste a tenetur illo minus quaerat
+          nostrum nesciunt animi, error aspernatur perspiciatis, excepturi
+          fugit? Modi inventore enim, nemo error reprehenderit blanditiis
+          voluptas, possimus commodi deserunt aperiam asperiores ipsa molestiae
+          excepturi illo sapiente cum optio eaque! Eos, repudiandae
+          consequuntur! Quod repellendus, ad pariatur iste explicabo, cupiditate
+          placeat cumque laudantium nesciunt expedita consequatur nisi,
+          reprehenderit labore cum amet itaque non minima saepe possimus nobis
+          praesentium omnis corrupti distinctio doloribus? Tenetur, maiores
+          quae, ipsam omnis amet laudantium, eveniet adipisci veniam eaque atque
+          ipsum reiciendis voluptates fuga. Dignissimos ex in deleniti.
+        </div>
+        <div class="modal-action">
+          <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
 
     <!-- add javascript file -->
 
